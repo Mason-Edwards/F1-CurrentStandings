@@ -29,7 +29,7 @@ namespace F1_CurrentStandings
             IRestResponse response = client.Execute(request);
 
             // Display API data
-            label1.Text = response.Content;
+            //label1.Text = response.Content;
 
             // Load data into xml document 
             XmlDocument xmlData = new XmlDocument();
@@ -42,9 +42,26 @@ namespace F1_CurrentStandings
             //Loop though 10 Drivers and add them to the 10 labels
             int count = 0;
 
-            foreach(Label label in groupBox1.Controls)
+            foreach(Label label in panel1.Controls)
             {
-                label.Text = nodes[count].Attributes["driverId"].Value;
+                // Get drivers name
+                string name = nodes[count].Attributes["driverId"].Value;
+
+                // Get parent node to get standing position
+                XmlNode parent = nodes[count].ParentNode;
+
+                //Get Position 
+                string pos = parent.Attributes["position"].Value + "               ";
+
+                // Get Points
+                string points = parent.Attributes["points"].Value + "            ";
+
+                // Get Wins
+                string wins = parent.Attributes["wins"].Value + "        ";
+
+                // Set label text
+                label.Text = name + points + wins;
+
                 count++;
             }
 
@@ -61,5 +78,7 @@ namespace F1_CurrentStandings
             label11.Text = nodes[9].Attributes["driverId"].Value;
             */
         }
+
+
     }
 }
