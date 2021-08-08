@@ -6,6 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "F1-CurrentStandings/1.0.0": {
+        "dependencies": {
+          "RestSharp": "106.12.0"
+        },
+        "runtime": {
+          "F1-CurrentStandings.dll": {}
+        }
+      },
       "RestSharp/106.12.0": {
         "runtime": {
           "lib/netstandard2.0/RestSharp.dll": {
@@ -17,6 +25,11 @@
     }
   },
   "libraries": {
+    "F1-CurrentStandings/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "RestSharp/106.12.0": {
       "type": "package",
       "serviceable": true,

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nXKdUU20H8mxJylBeXSgvf89Mlb2W6J4/VzT+su3kxp4LEwiLXZxpFu5EYqaAYOVsCG7zwKkXAlcDbbFitSpUg==",
+  "dgSpecHash": "G6V/ZdhwHvdPPn2IdVv6VB4SMtLG7J4nAWd7IYO79NmoTgUgp0AuxtkQVxd1TnfyvKbvZYJo9eM0iib4fZcqWw==",
   "success": true,
   "projectFilePath": "D:\\Projects\\F1-CurrentStandings\\F1-CurrentStandings\\F1-CurrentStandings\\F1-CurrentStandings.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Mason\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512"
+  ],
   "logs": []
 }

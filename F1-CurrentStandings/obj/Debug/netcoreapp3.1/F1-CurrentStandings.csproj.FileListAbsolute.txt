@@ -1,0 +1,17 @@
+D:\Projects\F1-CurrentStandings\F1-CurrentStandings\F1-CurrentStandings\bin\Debug\netcoreapp3.1\F1-CurrentStandings.exe
+D:\Projects\F1-CurrentStandings\F1-CurrentStandings\F1-CurrentStandings\bin\Debug\netcoreapp3.1\F1-CurrentStandings.deps.json
+D:\Projects\F1-CurrentStandings\F1-CurrentStandings\F1-CurrentStandings\bin\Debug\netcoreapp3.1\F1-CurrentStandings.runtimeconfig.json
+D:\Projects\F1-CurrentStandings\F1-CurrentStandings\F1-CurrentStandings\bin\Debug\netcoreapp3.1\F1-CurrentStandings.runtimeconfig.dev.json
+D:\Projects\F1-CurrentStandings\F1-CurrentStandings\F1-CurrentStandings\bin\Debug\netcoreapp3.1\F1-CurrentStandings.dll
+D:\Projects\F1-CurrentStandings\F1-CurrentStandings\F1-CurrentStandings\bin\Debug\netcoreapp3.1\F1-CurrentStandings.pdb
+D:\Projects\F1-CurrentStandings\F1-CurrentStandings\F1-CurrentStandings\obj\Debug\netcoreapp3.1\F1-CurrentStandings.csprojAssemblyReference.cache
+D:\Projects\F1-CurrentStandings\F1-CurrentStandings\F1-CurrentStandings\obj\Debug\netcoreapp3.1\F1-CurrentStandings.csproj.GenerateResource.cache
+D:\Projects\F1-CurrentStandings\F1-CurrentStandings\F1-CurrentStandings\obj\Debug\netcoreapp3.1\F1-CurrentStandings.AssemblyInfoInputs.cache
+D:\Projects\F1-CurrentStandings\F1-CurrentStandings\F1-CurrentStandings\obj\Debug\netcoreapp3.1\F1-CurrentStandings.AssemblyInfo.cs
+D:\Projects\F1-CurrentStandings\F1-CurrentStandings\F1-CurrentStandings\obj\Debug\netcoreapp3.1\F1-CurrentStandings.csproj.CoreCompileInputs.cache
+D:\Projects\F1-CurrentStandings\F1-CurrentStandings\F1-CurrentStandings\obj\Debug\netcoreapp3.1\F1-CurrentStandings.dll
+D:\Projects\F1-CurrentStandings\F1-CurrentStandings\F1-CurrentStandings\obj\Debug\netcoreapp3.1\F1-CurrentStandings.pdb
+D:\Projects\F1-CurrentStandings\F1-CurrentStandings\F1-CurrentStandings\obj\Debug\netcoreapp3.1\F1-CurrentStandings.genruntimeconfig.cache
+D:\Projects\F1-CurrentStandings\F1-CurrentStandings\F1-CurrentStandings\obj\Debug\netcoreapp3.1\F1_CurrentStandings.mainForm.resources
+D:\Projects\F1-CurrentStandings\F1-CurrentStandings\F1-CurrentStandings\bin\Debug\netcoreapp3.1\RestSharp.dll
+D:\Projects\F1-CurrentStandings\F1-CurrentStandings\F1-CurrentStandings\obj\Debug\netcoreapp3.1\F1-CurrentStandings.csproj.CopyComplete
