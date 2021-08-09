@@ -20,7 +20,7 @@ namespace F1_CurrentStandings
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {
+        {   
             // Get Standings Data
             //string test = getStandingsData().Result;
             var client = new RestClient("http://ergast.com/api/f1/current/driverStandings");
@@ -42,6 +42,7 @@ namespace F1_CurrentStandings
             //Loop though 10 Drivers and add them to the 10 labels
             int count = 0;
 
+            // Set Names
             foreach(Label label in panel1.Controls)
             {
                 // Get drivers name
@@ -50,20 +51,61 @@ namespace F1_CurrentStandings
                 // Get parent node to get standing position
                 XmlNode parent = nodes[count].ParentNode;
 
-                //Get Position 
-                string pos = parent.Attributes["position"].Value + "               ";
-
-                // Get Points
-                string points = parent.Attributes["points"].Value + "            ";
-
-                // Get Wins
-                string wins = parent.Attributes["wins"].Value + "        ";
-
                 // Set label text
-                label.Text = name + points + wins;
+                label.Text = name.Replace("_", " ");
 
                 count++;
             }
+
+            count = 0;
+
+            // Set Positions
+            foreach(Label label in panel2.Controls)
+            {
+                // Get parent node to get standing position
+                XmlNode parent = nodes[count].ParentNode;
+
+                //Get Position 
+                string pos = parent.Attributes["position"].Value;
+
+                // Set label text
+                label.Text = pos;
+
+                count++;
+            }
+
+            count = 0;
+
+            // Set Points
+            foreach(Label label in panel3.Controls)
+            {
+                // Get parent node to get standing position
+                XmlNode parent = nodes[count].ParentNode;
+
+                //Get Position 
+                string points = parent.Attributes["points"].Value;
+
+                label.Text = points;
+                count++;
+            }
+
+            count = 0;
+
+            // Set Wins
+            foreach(Label label in panel4.Controls)
+            {
+                // Get parent node to get standing position
+                XmlNode parent = nodes[count].ParentNode;
+
+                //Get Position 
+                string wins = parent.Attributes["wins"].Value;
+
+                label.Text = wins;
+                count++;
+            }
+
+            count = 0;
+            
 
             /*
             label2.Text = nodes[0].Attributes["driverId"].Value;
